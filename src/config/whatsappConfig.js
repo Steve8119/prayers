@@ -1,6 +1,6 @@
 export const WhatsAppConfig = {
   // Replace this with your actual church WhatsApp number
-  CHURCH_WHATSAPP_NUMBER: '+254794194058', // Kenyan format example
+  CHURCH_WHATSAPP_NUMBER: '+254788610146', // Kenyan format example
   // Or use: '+1234567890' for international format
   
   // Alternative: Use a church phone number from environment variables
