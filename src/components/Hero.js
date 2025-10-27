@@ -59,20 +59,20 @@ const Hero = ({ onButtonClick }) => {
         </motion.p>
 
         <motion.div variants={itemVariants} className="prayer-cards">
-          <motion.div className="prayer-card">
-            <h3>🙏 Daily Prayer</h3>
-            <p>Join us in daily communion with God</p>
-          </motion.div>
+<motion.div className="prayer-card">
+  <h3>🙏 Daily Online Prayers</h3>
+  <p>Join us daily from 4:00 AM to 6:00 AM for online prayers</p>
+</motion.div>
           
-          <motion.div className="prayer-card">
-            <h3>⭐ Weekly Fellowship</h3>
-            <p>Wednesday Bible Study & Prayer</p>
-          </motion.div>
+<motion.div className="prayer-card">
+  <h3>⭐ Wednesday Prayer Service</h3>
+  <p>Join us for midweek prayers every Wednesday</p>
+</motion.div>
           
-          <motion.div className="prayer-card">
-            <h3>🌅 Sunday Service</h3>
-            <p>Worship with us every Sunday at 10 AM</p>
-          </motion.div>
+<motion.div className="prayer-card">
+  <h3>🌅 Sunday Prayers Service</h3>
+  <p>Join us every Sunday from 9:00 AM to 9:45 AM</p>
+</motion.div>
         </motion.div>
 
         <motion.div className="action-buttons" variants={itemVariants}>

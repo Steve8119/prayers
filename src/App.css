@@ -54,3 +54,59 @@ body {
 .App {
   text-align: center;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+}
+
+/* New Background Styles */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  /* Option A: Use local image from public folder */
+  background-image: url('/public/CHURCH.jpg');
+  
+  /* Option B: Use online image - uncomment below and replace URL */
+  /* background-image: url('https://images.unsplash.com/photo-1510070112810-d4e9a46d44a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80'); */
+  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  /* Add overlay for better text readability */
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: overlay;
+  
+  z-index: -1;
+}
+
+/* Alternative: If you prefer to set background on body directly */
+/*
+body {
+  background-image: url('/church-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: overlay;
+}
+*/
